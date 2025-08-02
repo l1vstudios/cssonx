@@ -122,6 +122,7 @@ body {
   text-align: center;
 }
 
+/* xx */
 .btn-primary:hover {
   background: linear-gradient(90deg, #2575fc, #6a11cb);
   transform: translateY(-3px);
