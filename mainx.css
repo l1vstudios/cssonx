@@ -124,11 +124,7 @@ body {
 }
 
 /* xx */
-.btn-primary:hover {
-  background: linear-gradient(90deg, #2575fc, #6a11cb);
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-}
+
 
 
 /* FAQ Section */
@@ -294,9 +290,18 @@ body {
 }
 
 .btn-primary {
-  background: var(--secondary-gradient);
-  color: var(--text-white);
-  box-shadow: 0 8px 30px rgba(255, 216, 155, 0.4);
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 50px;
+  /* bikin oval */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  text-align: center;
 }
 
 .btn-primary:hover {
