@@ -109,7 +109,8 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+
   color: #fff;
   font-weight: 600;
   padding: 12px 32px;
